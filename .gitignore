@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Local captures / exports (never commit)
+.traces/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3.write.lock
+
+# Editor / tool state
+.idea/
+.vscode/
+.claude/
+.ruff_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
